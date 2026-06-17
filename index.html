@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>家里小馆点菜单</title>
+    <meta
+      name="description"
+      content="家庭饭店点菜网站，支持搜索、分类筛选、加减份数和复制点单。"
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23b6322a'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='34' fill='%23fffaf0' font-family='serif'%3E%E5%AE%B6%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;600;700&family=Noto+Serif+SC:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="家里小馆首页">
+        <span class="brand-mark">家</span>
+        <span>
+          <strong>家里小馆</strong>
+          <small>Family Kitchen</small>
+        </span>
+      </a>
+      <div class="top-actions">
+        <label class="search-shell" for="menuSearch">
+          <i data-lucide="search"></i>
+          <input id="menuSearch" type="search" placeholder="搜索菜名" autocomplete="off" />
+        </label>
+        <button class="ghost-button" id="clearCart" type="button">
+          <i data-lucide="trash-2"></i>
+          <span>清空</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="menu-section" aria-label="菜单">
+        <div class="menu-heading">
+          <div>
+            <p class="eyebrow">今日可点</p>
+            <h1>家庭饭店点菜单</h1>
+          </div>
+          <dl class="stats">
+            <div>
+              <dt>菜品饮料</dt>
+              <dd id="totalItems">0</dd>
+            </div>
+            <div>
+              <dt>已选份数</dt>
+              <dd id="totalQty">0</dd>
+            </div>
+          </dl>
+        </div>
+
+        <nav class="category-bar" id="categoryBar" aria-label="菜品分类"></nav>
+        <div class="menu-grid" id="menuGrid"></div>
+        <p class="no-results" id="noResults" hidden>没找到这个菜，换个关键词试试。</p>
+      </section>
+
+      <aside class="order-panel" aria-label="点单">
+        <div class="order-card">
+          <div class="order-title">
+            <div>
+              <p class="eyebrow">点单</p>
+              <h2>今晚吃这些</h2>
+            </div>
+            <span class="order-count" id="orderCount">0</span>
+          </div>
+
+          <div class="order-list" id="orderList"></div>
+
+          <div class="order-form">
+            <label>
+              <span>称呼</span>
+              <input id="guestName" type="text" placeholder="比如：老张家" />
+            </label>
+            <label>
+              <span>开饭时间</span>
+              <input id="mealTime" type="text" placeholder="比如：今晚 7 点" />
+            </label>
+            <label>
+              <span>备注</span>
+              <textarea id="orderNote" rows="4" placeholder="少辣、不要香菜、分装等"></textarea>
+            </label>
+          </div>
+
+          <button class="primary-button" id="copyOrder" type="button">
+            <i data-lucide="copy"></i>
+            <span>复制点单</span>
+          </button>
+        </div>
+      </aside>
+    </main>
+
+    <div class="mobile-summary" aria-live="polite">
+      <span><strong id="mobileQty">0</strong> 份已选</span>
+      <a href="#copyOrder">查看点单</a>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="./image-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
