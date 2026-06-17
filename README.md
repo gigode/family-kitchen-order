@@ -12,4 +12,4 @@ python -m http.server 5173
 
 ## 图片来源
 
-菜品图优先来自 [Openverse](https://openverse.org/) 开放许可图片搜索，`image-data.js` 中保存了图片地址、来源链接和署名信息。没有合适开放图时，页面会退回固定关键词的 [LoremFlickr](https://loremflickr.com/) 图片。后续如果有自家实拍图，只要替换 `image-data.js` 中对应条目的 `image` 地址即可。
+菜品图已按菜名从 [百度图片搜索](https://image.baidu.com/) 逐个下载到 `assets/images/`，`image-data.js` 中保存了本地图片路径和搜索来源链接。这批图片适合临时预览；如果网站长期公开使用，建议替换成自家实拍或已授权图片。后续替换时，只要覆盖对应的本地图片文件即可。

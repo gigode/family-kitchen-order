@@ -6,3 +6,5 @@ dist/
 .playwright-cli/
 output/
 .server.pid
+package-lock.json
+package.json
