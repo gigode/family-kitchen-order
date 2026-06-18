@@ -142,13 +142,13 @@ window.MENU_IMAGE_DATA = {
   },
   "泡菜": {
     "image": "./assets/images/dish-030.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B3%A1%E8%8F%9C%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：泡菜"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%9F%A9%E5%9B%BD%E6%B3%A1%E8%8F%9C",
+    "credit": "百度图片搜索：韩国泡菜"
   },
   "酸黄瓜": {
     "image": "./assets/images/dish-031.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%85%B8%E9%BB%84%E7%93%9C%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：酸黄瓜"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%BE%B7%E5%BC%8F%E9%85%B8%E9%BB%84%E7%93%9C",
+    "credit": "百度图片搜索：德式酸黄瓜"
   },
   "蘸酱菜": {
     "image": "./assets/images/dish-032.webp",
