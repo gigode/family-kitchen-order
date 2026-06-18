@@ -390,7 +390,7 @@ async function copyOrder() {
   const time = els.mealTime.value.trim() || "待定";
   const note = els.orderNote.value.trim() || "无";
   const lines = [
-    "家里小馆点单",
+    "老吃家饭庄点单",
     `称呼：${guest}`,
     `开饭时间：${time}`,
     `备注：${note}`,
