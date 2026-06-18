@@ -1,14 +1,14 @@
-// Local images downloaded from Baidu Image Search for visual menu previews.
+// Local menu image mapping. User photos are preferred when available.
 window.MENU_IMAGE_DATA = {
   "韭菜鸡蛋": {
-    "image": "./assets/images/dish-002.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%9F%AD%E8%8F%9C%E9%B8%A1%E8%9B%8B%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：韭菜鸡蛋"
+    "image": "./assets/images/dish-002.jpg",
+    "sourceUrl": "./assets/images/dish-002.jpg",
+    "credit": "自家拍摄：韭菜鸡蛋.jpg"
   },
   "酸辣土豆丝": {
-    "image": "./assets/images/dish-003.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：酸辣土豆丝"
+    "image": "./assets/images/dish-003.jpg",
+    "sourceUrl": "./assets/images/dish-003.jpg",
+    "credit": "自家拍摄：土豆丝.jpg"
   },
   "红烧肘子": {
     "image": "./assets/images/dish-004.webp",
@@ -16,14 +16,14 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：红烧肘子"
   },
   "杀猪菜": {
-    "image": "./assets/images/dish-005.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E6%9D%80%E7%8C%AA%E8%8F%9C%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：杀猪菜"
+    "image": "./assets/images/dish-005.jpg",
+    "sourceUrl": "./assets/images/dish-005.jpg",
+    "credit": "自家拍摄：杀猪菜.jpg"
   },
   "水煮肉片": {
-    "image": "./assets/images/dish-006.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B0%B4%E7%85%AE%E8%82%89%E7%89%87%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：水煮肉片"
+    "image": "./assets/images/dish-006.jpg",
+    "sourceUrl": "./assets/images/dish-006.jpg",
+    "credit": "自家拍摄：水煮肉片.jpg"
   },
   "酸菜鱼": {
     "image": "./assets/images/dish-007.webp",
@@ -36,14 +36,14 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：酸汤肥牛"
   },
   "毛血旺": {
-    "image": "./assets/images/dish-009.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E6%AF%9B%E8%A1%80%E6%97%BA%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：毛血旺"
+    "image": "./assets/images/dish-009.jpg",
+    "sourceUrl": "./assets/images/dish-009.jpg",
+    "credit": "自家拍摄：毛血旺.jpg"
   },
   "白灼虾": {
-    "image": "./assets/images/dish-010.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BD%E7%81%BC%E8%99%BE%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：白灼虾"
+    "image": "./assets/images/dish-010.jpg",
+    "sourceUrl": "./assets/images/dish-010.jpg",
+    "credit": "自家拍摄：白灼虾.jpg"
   },
   "白灼鱿鱼": {
     "image": "./assets/images/dish-011.webp",
@@ -51,9 +51,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：白灼鱿鱼"
   },
   "炒鸡": {
-    "image": "./assets/images/dish-012.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%82%92%E9%B8%A1%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：炒鸡"
+    "image": "./assets/images/dish-012.jpg",
+    "sourceUrl": "./assets/images/dish-012.jpg",
+    "credit": "自家拍摄：炒鸡.jpg"
   },
   "烤鸡翅": {
     "image": "./assets/images/dish-013.webp",
@@ -61,9 +61,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：烤鸡翅"
   },
   "辣椒炒肉": {
-    "image": "./assets/images/dish-014.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%BE%A3%E6%A4%92%E7%82%92%E8%82%89%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：辣椒炒肉"
+    "image": "./assets/images/dish-014.jpg",
+    "sourceUrl": "./assets/images/dish-014.jpg",
+    "credit": "自家拍摄：辣椒炒肉1.jpg"
   },
   "农家一锅出": {
     "image": "./assets/images/dish-015.webp",
@@ -71,9 +71,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：农家一锅出"
   },
   "芹菜香干": {
-    "image": "./assets/images/dish-016.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8A%B9%E8%8F%9C%E9%A6%99%E5%B9%B2%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：芹菜香干"
+    "image": "./assets/images/dish-016.jpg",
+    "sourceUrl": "./assets/images/dish-016.jpg",
+    "credit": "自家拍摄：香干芹菜.jpg"
   },
   "炒花甲": {
     "image": "./assets/images/dish-017.webp",
@@ -81,14 +81,14 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：炒花甲"
   },
   "羊肉萝卜汤": {
-    "image": "./assets/images/dish-018.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%BE%8A%E8%82%89%E8%90%9D%E5%8D%9C%E6%B1%A4%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：羊肉萝卜汤"
+    "image": "./assets/images/dish-018.jpg",
+    "sourceUrl": "./assets/images/dish-018.jpg",
+    "credit": "自家拍摄：萝卜羊排汤.jpg"
   },
   "紫菜蛋汤": {
-    "image": "./assets/images/dish-019.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%B4%AB%E8%8F%9C%E8%9B%8B%E6%B1%A4%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：紫菜蛋汤"
+    "image": "./assets/images/dish-019.jpg",
+    "sourceUrl": "./assets/images/dish-019.jpg",
+    "credit": "自家拍摄：紫菜蛋汤.jpg"
   },
   "撒汤": {
     "image": "./assets/images/dish-020.webp",
@@ -96,9 +96,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：撒汤"
   },
   "炒空心菜": {
-    "image": "./assets/images/dish-021.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%82%92%E7%A9%BA%E5%BF%83%E8%8F%9C%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：炒空心菜"
+    "image": "./assets/images/dish-021.jpg",
+    "sourceUrl": "./assets/images/dish-021.jpg",
+    "credit": "自家拍摄：炒空心菜.jpg"
   },
   "三文鱼甜虾刺身": {
     "image": "./assets/images/dish-022.webp",
@@ -106,9 +106,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：三文鱼甜虾刺身"
   },
   "韩式烤五花": {
-    "image": "./assets/images/dish-023.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%9F%A9%E5%BC%8F%E7%83%A4%E4%BA%94%E8%8A%B1%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：韩式烤五花"
+    "image": "./assets/images/dish-023.jpg",
+    "sourceUrl": "./assets/images/dish-023.jpg",
+    "credit": "自家拍摄：韩式烤肉.jpg"
   },
   "酸辣鸡杂": {
     "image": "./assets/images/dish-024.webp",
@@ -121,9 +121,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：番茄炒蛋"
   },
   "牛排": {
-    "image": "./assets/images/dish-026.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%89%9B%E6%8E%92%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：牛排"
+    "image": "./assets/images/dish-026.jpg",
+    "sourceUrl": "./assets/images/dish-026.jpg",
+    "credit": "自家拍摄：牛排1.jpg"
   },
   "番茄牛尾汤": {
     "image": "./assets/images/dish-027.webp",
@@ -136,9 +136,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：红烧牛排筒骨牛膝"
   },
   "蘑菇芦笋": {
-    "image": "./assets/images/dish-029.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%98%91%E8%8F%87%E8%8A%A6%E7%AC%8B%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：蘑菇芦笋"
+    "image": "./assets/images/dish-029.jpg",
+    "sourceUrl": "./assets/images/dish-029.jpg",
+    "credit": "自家拍摄：芦笋蘑菇.jpg"
   },
   "泡菜": {
     "image": "./assets/images/dish-030.webp",
@@ -156,9 +156,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：蘸酱菜"
   },
   "麻婆豆腐": {
-    "image": "./assets/images/dish-033.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：麻婆豆腐"
+    "image": "./assets/images/dish-033.jpg",
+    "sourceUrl": "./assets/images/dish-033.jpg",
+    "credit": "自家拍摄：麻婆豆腐.jpg"
   },
   "红烧茄子": {
     "image": "./assets/images/dish-034.webp",
@@ -171,9 +171,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：德式烤肠"
   },
   "烤羊肉串羊腰羊肝": {
-    "image": "./assets/images/dish-036.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%83%A4%E7%BE%8A%E8%82%89%E4%B8%B2%E7%BE%8A%E8%85%B0%E7%BE%8A%E8%82%9D%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：烤羊肉串羊腰羊肝"
+    "image": "./assets/images/dish-036.jpg",
+    "sourceUrl": "./assets/images/dish-036.jpg",
+    "credit": "自家拍摄：烤羊肉串.jpg"
   },
   "金枪鱼鸡蛋培根青酱海鲜意面": {
     "image": "./assets/images/dish-037.webp",
@@ -296,9 +296,9 @@ window.MENU_IMAGE_DATA = {
     "credit": "百度图片搜索：汽锅鸡"
   },
   "炒螺蛳": {
-    "image": "./assets/images/dish-061.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%82%92%E8%9E%BA%E8%9B%B3%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：炒螺蛳"
+    "image": "./assets/images/dish-061.jpg",
+    "sourceUrl": "./assets/images/dish-061.jpg",
+    "credit": "自家拍摄：炒螺蛳.jpg"
   },
   "钵钵鸡": {
     "image": "./assets/images/dish-062.webp",
@@ -362,53 +362,53 @@ window.MENU_IMAGE_DATA = {
   },
   "黄油啤酒": {
     "image": "./assets/images/dish-074.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%BB%84%E6%B2%B9%E5%95%A4%E9%85%92%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：黄油啤酒"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%BB%84%E6%B2%B9%E5%95%A4%E9%85%92%20%E9%A5%AE%E6%96%99%20%E5%93%88%E5%88%A9%E6%B3%A2%E7%89%B9",
+    "credit": "百度图片搜索：黄油啤酒 饮料 哈利波特"
   },
   "白啤": {
-    "image": "./assets/images/dish-075.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BD%E5%95%A4%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：白啤"
+    "image": "./assets/images/dish-075.jpg",
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BD%E5%95%A4%E9%85%92%20%E6%9D%AF%E8%A3%85%20%E5%95%A4%E9%85%92",
+    "credit": "百度图片搜索：白啤酒 杯装 啤酒"
   },
   "原浆": {
     "image": "./assets/images/dish-076.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9F%E6%B5%86%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：原浆"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8E%9F%E6%B5%86%E5%95%A4%E9%85%92%20%E6%89%8E%E5%95%A4%20%E5%95%A4%E9%85%92%E6%9D%AF",
+    "credit": "百度图片搜索：原浆啤酒 扎啤 啤酒杯"
   },
   "菠萝啤": {
     "image": "./assets/images/dish-077.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8F%A0%E8%90%9D%E5%95%A4%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：菠萝啤"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8F%A0%E8%90%9D%E5%95%A4%20%E9%A5%AE%E6%96%99%20%E7%BD%90",
+    "credit": "百度图片搜索：菠萝啤 饮料 罐"
   },
   "可乐": {
     "image": "./assets/images/dish-078.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8F%AF%E4%B9%90%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：可乐"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90%20%E7%93%B6%20%E9%A5%AE%E6%96%99",
+    "credit": "百度图片搜索：可口可乐 瓶 饮料"
   },
   "香蕉火龙果奶昔": {
     "image": "./assets/images/dish-079.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%A6%99%E8%95%89%E7%81%AB%E9%BE%99%E6%9E%9C%E5%A5%B6%E6%98%94%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：香蕉火龙果奶昔"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%A6%99%E8%95%89%E7%81%AB%E9%BE%99%E6%9E%9C%E5%A5%B6%E6%98%94%20%E9%A5%AE%E5%93%81",
+    "credit": "百度图片搜索：香蕉火龙果奶昔 饮品"
   },
   "苏式绿豆汤": {
     "image": "./assets/images/dish-080.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8B%8F%E5%BC%8F%E7%BB%BF%E8%B1%86%E6%B1%A4%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：苏式绿豆汤"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E8%8B%8F%E5%BC%8F%E7%BB%BF%E8%B1%86%E6%B1%A4%20%E9%A5%AE%E5%93%81",
+    "credit": "百度图片搜索：苏式绿豆汤 饮品"
   },
   "酸梅汤": {
     "image": "./assets/images/dish-081.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%85%B8%E6%A2%85%E6%B1%A4%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：酸梅汤"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E9%85%B8%E6%A2%85%E6%B1%A4%20%E9%A5%AE%E5%93%81",
+    "credit": "百度图片搜索：酸梅汤 饮品"
   },
   "浊酒": {
     "image": "./assets/images/dish-082.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B5%8A%E9%85%92%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：浊酒"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E6%B5%8A%E9%85%92%20%E7%B1%B3%E9%85%92%20%E9%85%92%E6%9D%AF",
+    "credit": "百度图片搜索：浊酒 米酒 酒杯"
   },
   "可尔必思": {
     "image": "./assets/images/dish-083.webp",
-    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8F%AF%E5%B0%94%E5%BF%85%E6%80%9D%20%E8%8F%9C%E5%93%81%20%E7%BE%8E%E9%A3%9F",
-    "credit": "百度图片搜索：可尔必思"
+    "sourceUrl": "https://image.baidu.com/search/index?tn=baiduimage&word=%E5%8F%AF%E5%B0%94%E5%BF%85%E6%80%9D%20%E9%A5%AE%E6%96%99",
+    "credit": "百度图片搜索：可尔必思 饮料"
   },
   "尖椒干豆腐": {
     "image": "./assets/images/dish-001.jpg",
